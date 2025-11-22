@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f8f9fb;
+    color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto 40px;
+    border: 0;
+    height: 2px;
+    background: #ddd;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card h3 {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+    </style>
+</head>
+<body>
+    <h2>Welcome To Classic Capture</h2>
+    <hr>
+
+    <div class="container">
+
+
+        <a href="groom.html">
+            <div class="card">
+                <img src="groom_front.jpg">
+                <h3>Groom</h3>
+            </div>
+        </a>
+
+        <a href="bride.html">
+            <div class="card">
+                <img src="bride_front.jpg">
+                <h3>Bride</h3>
+            </div>
+        </a>
+
+        <a href="couple.html">
+            <div class="card">
+                <img src="couple_front.jpg">
+                <h3>Couple</h3>
+            </div>
+        </a>
+
+    </div>
+</body>
+
+</html>
